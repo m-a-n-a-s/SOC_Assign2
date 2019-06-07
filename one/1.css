@@ -1,0 +1,19 @@
+body{
+    background-color:azure;
+}
+#top{
+    background-color:cyan;
+}
+#heading{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}    
+.right{
+    position: absolute;
+    top:320px;
+    right:75px;
+}
+.left{
+    position: absolute;
+    top:320px;
+    left:75px;
+}

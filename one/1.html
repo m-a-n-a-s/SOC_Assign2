@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive Slider </title>
+        <link rel="stylesheet" type="text/css" href="1.css">
+        
+    </head>
+    <body>
+        <div id="top">
+            <h1 id="heading"><center>SLIDESHOW</center></h1>
+        </div>
+        <div id="slideshow"><center>
+            <!-- <iframe width="50%" src="https://www.youtube.com/watch?v=fTmvKcLYfmU"></iframe> -->
+            <iframe class="web" width="75%" height="500px" src="https://www.wikipedia.org/"></iframe>
+            <iframe class="web" width="75%" height="500px" src="https://www.bing.com/"></iframe>
+            <iframe class="web" width="75%" height="500px" src="https://www.iitk.ac.in/"></iframe>
+            <!-- <iframe class="web" width="75%" height="500px" src="https://www.youtube.com/"></iframe> -->
+            <!-- <img class="web" src="emoji.png" width=50% height="500px">
+            <img class="web" src="image2.png" width=50% height="500px">
+            <img class="web" src="timeemoji.jpg" width=50% height="500px"> -->
+            <button class="left" onclick="shiftidx(-1)">&#10094;</button>
+            <button class="right" onclick="shiftidx(1)">&#10095; </button>
+            <span
+        </center></div>
+        <script src="1.js"></script>
+    </body>
+    <!-- <script>
+        var idx=1;
+        displayweb(idx);
+        function shiftidx(n){
+            idx=idx+n;
+            displayweb(idx);
+        }
+        function displayweb(n){
+            var i;
+            var w=document.getElementsByClassName("web");
+            if(n>w.length){ 
+                idx=1;
+            }
+            if(n<1) {
+                idx=w.length;
+            }
+            for(i=0;i<w.length;i++){
+                w[i].style.display = "none";
+            }
+            w[idx-1].style.display = "block";  
+        }
+        // var slideIndex = 1;
+        // showDivs(slideIndex);
+
+        // function plusDivs(n) {
+        //     showDivs(slideIndex += n);
+        // }
+
+        // function showDivs(n) {
+        //     var i;
+        //     var x = document.getElementsByClassName("web");
+        //     if (n > x.length) {slideIndex = 1}
+        //     if (n < 1) {slideIndex = x.length}
+        //     for (i = 0; i < x.length; i++) {
+        //         x[i].style.display = "none";  
+        //     }
+        //     x[slideIndex-1].style.display = "block";  
+        // }
+        
+    </script> -->
+</html>

@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>2.2</title>
+        <link rel="stylesheet" type="text/css" href="2_2.css">
+        <!-- <style>
+            body{
+                background: linear-gradient(to left,rgb(79, 211, 255),royalblue,rgb(100, 7, 177) 100%) fixed;
+            }
+            .heading{
+                font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+                background-color: rgb(168, 233, 64);
+            }
+            
+            table, th, td {
+                border: 1px solid #ddd;
+                border-collapse: collapse;
+                text-align: center;
+                background-color: aliceblue;
+            }
+            #list{
+                width: 100%;
+            }
+            th{
+                background-color: #f1f1f1;
+            }
+        </style> -->
+    </head>
+    <body>
+        <center><h1 class="heading">SOC STUDENTS</h1></center>
+        <center><div class="div2">
+            <input id="myinput" type="text" >
+            <button onclick="findname()">GO!</button>
+        </div></center>
+        <div class="div1">
+            <table id="list" >
+                <tr>
+                    <th>NAME</th>
+                    <th>ROLL NO.</th>
+                    <th>YEAR</th>
+                </tr>
+                <tr>
+                    <td>Manas Agarwal</td>
+                    <td>180401</td>
+                    <td>Y18</td>
+                </tr>
+                <tr>
+                    <td>Virat Kohli</td>
+                    <td>150335</td>
+                    <td>Y15</td>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>180233</td>
+                    <td>Y18</td>
+                </tr>
+                <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>170765</td>
+                    <td>Y17</td>
+                </tr>
+                <tr>
+                    <td>Ernst Handel</td>
+                    <td>180678</td>
+                    <td>Y18</td>
+                </tr>
+                <tr>
+                    <td>Island Trading</td>
+                    <td>180348</td>
+                    <td>y18</td>
+                </tr>
+                <tr>
+                    <td>Laughing Bacchus Winecellars</td>
+                    <td>180256</td>
+                    <td>y18</td>
+                </tr>
+                <tr>
+                    <td>Magazzini Alimentari Riuniti</td>
+                    <td>170922</td>
+                    <td>Y17</td>
+                </tr>
+            </table>
+        </div>
+        <!-- <script>
+            function findname(){
+                var input, filter, table, tr, td, i, txtValue;
+                input = document.getElementById("myinput");
+                filter = input.value.toUpperCase();
+                table = document.getElementById("list");
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[0];
+                    if (td) {
+                        txtValue = td.textContent || td.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            //tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }       
+                }
+            }
+
+            
+            
+
+        </script> -->
+        <script src="2_2.js"></script>
+    </body>
+</html>
